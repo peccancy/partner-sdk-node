@@ -1,0 +1,30 @@
+{
+  "name": "@peccancy/partner-sdk",
+  "version": "0.1.0",
+  "description": "Official Peccancy partner SDK — create disputes, take payments and verify result webhooks.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peccancy/partner-sdk-node.git"
+  },
+  "homepage": "https://github.com/peccancy/partner-sdk-node#readme",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "example:game": "ts-node examples/connect-your-game.ts",
+    "example:webhook": "ts-node examples/webhook-receiver.ts"
+  },
+  "keywords": ["peccancy", "disputes", "betting", "partner", "sdk"],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
