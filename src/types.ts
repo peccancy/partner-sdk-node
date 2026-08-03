@@ -1,5 +1,5 @@
 export interface PartnerClientOptions {
-    /** API base URL, e.g. "https://disputes.online". No trailing slash needed. */
+    /** Partner API base URL, e.g. "https://disputes.online/partner". No trailing slash needed. */
     baseUrl: string
     /** Your partner UUID. */
     partnerId: string

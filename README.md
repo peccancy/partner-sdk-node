@@ -28,7 +28,7 @@ npm install @peccancy/partner-sdk
 import { PartnerClient } from "@peccancy/partner-sdk"
 
 const client = new PartnerClient({
-  baseUrl: "https://disputes.online",
+  baseUrl: "https://disputes.online/partner", // the partner API base
   partnerId: process.env.PECCANCY_PARTNER_ID!,
   secret: process.env.PECCANCY_PARTNER_SECRET!,
 })

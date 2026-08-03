@@ -7,7 +7,7 @@ import { PartnerClient, PartnerApiError } from "../src"
 
 async function main() {
     const client = new PartnerClient({
-        baseUrl: process.env.PECCANCY_BASE_URL ?? "https://disputes.online",
+        baseUrl: process.env.PECCANCY_BASE_URL ?? "https://disputes.online/partner",
         partnerId: required("PECCANCY_PARTNER_ID"),
         secret: required("PECCANCY_PARTNER_SECRET"),
     })
