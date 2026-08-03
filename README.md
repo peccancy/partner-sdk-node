@@ -18,7 +18,7 @@ npm install @peccancy/partner-sdk
 
 ## Get credentials
 
-1. Register as a partner on the platform and open your partner in the dashboard.
+1. Register as a partner at **https://disputes.online/profile?tab=partners** and open your partner.
 2. Copy your **`partnerId`** (UUID) and **`secret`**.
 3. Set a **`callback_url`** on your partner if you want to receive result/payment webhooks.
 
@@ -151,6 +151,11 @@ try {
 
 - [`examples/connect-your-game.ts`](./examples/connect-your-game.ts) — full match lifecycle
 - [`examples/webhook-receiver.ts`](./examples/webhook-receiver.ts) — verifying callbacks
+
+## Links
+
+- **Register / get credentials:** https://disputes.online/profile?tab=partners
+- **Other SDKs:** [Node](https://github.com/peccancy/partner-sdk-node) · [PHP](https://github.com/peccancy/partner-sdk-php) · [Python](https://github.com/peccancy/partner-sdk-python) · [Go](https://github.com/peccancy/partner-sdk-go)
 
 ## License
 
