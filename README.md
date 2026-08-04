@@ -1,5 +1,7 @@
 # @peccancy/partner-sdk (Node.js / TypeScript)
 
+[![CI](https://github.com/peccancy/partner-sdk-node/actions/workflows/ci.yml/badge.svg)](https://github.com/peccancy/partner-sdk-node/actions/workflows/ci.yml)
+
 Official Node.js/TypeScript SDK for the **Peccancy** disputes/betting platform.
 
 Connect your game or app once and let your users bet on outcomes: create disputes, control
