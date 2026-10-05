@@ -155,6 +155,14 @@ try {
 - [`examples/connect-your-game.ts`](./examples/connect-your-game.ts) — full match lifecycle
 - [`examples/webhook-receiver.ts`](./examples/webhook-receiver.ts) — verifying callbacks
 
+## Public data and AI agents
+
+This SDK covers the signed Partner API. Reading disputes and odds needs neither the SDK nor a key:
+
+- **Public read API** — list, search and read disputes: [OpenAPI description](https://disputes.online/openapi.json)
+- **MCP server for AI agents** — `https://disputes.online/mcp` (read-only, no authentication)
+- **Everything on one page** — https://disputes.online/developers
+
 ## Links
 
 - **Register / get credentials:** https://disputes.online/profile?tab=partners
